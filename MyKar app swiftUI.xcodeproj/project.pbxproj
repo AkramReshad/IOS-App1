@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C51D09DB264DE434009C52DF /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D09DA264DE434009C52DF /* CheckBox.swift */; };
+		C51D09E2264DEEDD009C52DF /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D09E1264DEEDD009C52DF /* ForgotPasswordView.swift */; };
+		C51D09E6264DF53C009C52DF /* MapCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D09E5264DF53C009C52DF /* MapCoordinator.swift */; };
+		C51D09EC264DF7F6009C52DF /* Location Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D09EB264DF7F6009C52DF /* Location Manager.swift */; };
+		C51D09F0264E023A009C52DF /* LandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D09EF264E023A009C52DF /* LandMark.swift */; };
+		C51D09F3264E02F4009C52DF /* LandMarkAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D09F2264E02F4009C52DF /* LandMarkAnnotation.swift */; };
+		C51D09F6264E09C0009C52DF /* PlaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D09F5264E09C0009C52DF /* PlaceListView.swift */; };
+		C51D09FD264E1C8B009C52DF /* RideSpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D09FC264E1C8B009C52DF /* RideSpringView.swift */; };
+		C51D0A002651B67E009C52DF /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D09FF2651B67D009C52DF /* Test.swift */; };
+		C5281961261E8A6D0011D1D6 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5281960261E8A6D0011D1D6 /* Service.swift */; };
+		C5281964261E91560011D1D6 /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5281963261E91560011D1D6 /* Ride.swift */; };
+		C5281967261E9B190011D1D6 /* UserAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5281966261E9B190011D1D6 /* UserAuthentication.swift */; };
+		C5281987261F9B430011D1D6 /* LoginChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5281986261F9B430011D1D6 /* LoginChoice.swift */; };
+		C52819BA261FBEA40011D1D6 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52819B9261FBEA30011D1D6 /* SideMenu.swift */; };
+		C53BC95925AFBF75002B6819 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53BC95825AFBF75002B6819 /* AppDelegate.swift */; };
+		C53BC95B25AFBF75002B6819 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53BC95A25AFBF75002B6819 /* SceneDelegate.swift */; };
+		C53BC95D25AFBF75002B6819 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53BC95C25AFBF75002B6819 /* StartView.swift */; };
+		C53BC95F25AFBF7B002B6819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53BC95E25AFBF7B002B6819 /* Assets.xcassets */; };
+		C53BC96225AFBF7B002B6819 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53BC96125AFBF7B002B6819 /* Preview Assets.xcassets */; };
+		C53BC96525AFBF7B002B6819 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C53BC96325AFBF7B002B6819 /* LaunchScreen.storyboard */; };
+		C53BC96D25AFD72D002B6819 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53BC96C25AFD72D002B6819 /* Colors.xcassets */; };
+		C547F3992644E7ED009F0059 /* BackgroundGeometryViev.swift in Sources */ = {isa = PBXBuildFile; fileRef = C547F3982644E7EB009F0059 /* BackgroundGeometryViev.swift */; };
+		C54981532639E88400E04605 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54981522639E88400E04605 /* MailView.swift */; };
+		C54AE38C261CD52700EDE45E /* firebaseUserAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54AE38B261CD52700EDE45E /* firebaseUserAuth.swift */; };
+		C54AE3A7261CF23E00EDE45E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54AE3A6261CF23E00EDE45E /* User.swift */; };
+		C54AE3BE261D0DD300EDE45E /* MaintenanceSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54AE3BD261D0DD300EDE45E /* MaintenanceSelection.swift */; };
+		C54F73C62603BFE10072C548 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F73C52603BFE10072C548 /* SplashScreenView.swift */; };
+		C54F73CD2603CE2A0072C548 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F73CC2603CE2A0072C548 /* LoginView.swift */; };
+		C54F73D02603D12B0072C548 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F73CF2603D12B0072C548 /* RegistrationView.swift */; };
+		C54F73D32603D15F0072C548 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F73D22603D15F0072C548 /* HomeView.swift */; };
+		C54F73D62603DB5A0072C548 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F73D52603DB5A0072C548 /* MapView.swift */; };
+		C5586A90260BCCCE003BEB7F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5586A8F260BCCCE003BEB7F /* Location.swift */; };
+		C5586A932612839E003BEB7F /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5586A922612839E003BEB7F /* Shop.swift */; };
+		C5586A9826128453003BEB7F /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5586A9726128453003BEB7F /* Car.swift */; };
+		C567B032263AD959007930BF /* CarStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C567B031263AD959007930BF /* CarStatusView.swift */; };
+		C583040C26276F5500869C8D /* Select Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = C583040B26276F5500869C8D /* Select Car.swift */; };
+		C58304102627706A00869C8D /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C583040F2627706A00869C8D /* CarViewModel.swift */; };
+		C5886C8326279208002B5DF0 /* NewCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5886C8226279208002B5DF0 /* NewCar.swift */; };
+		C5886C862627C866002B5DF0 /* Select_Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5886C852627C866002B5DF0 /* Select_Shop.swift */; };
+		C5886C89262829F6002B5DF0 /* RideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5886C88262829F6002B5DF0 /* RideView.swift */; };
+		C5886C8C26282D5F002B5DF0 /* ConfirmOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5886C8B26282D5F002B5DF0 /* ConfirmOrderView.swift */; };
+		C5886C8F262834DD002B5DF0 /* RideConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5886C8E262834DD002B5DF0 /* RideConditions.swift */; };
+		C5886C942628724E002B5DF0 /* ShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5886C932628724E002B5DF0 /* ShopViewModel.swift */; };
+		C5886C9826288D49002B5DF0 /* RideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5886C9726288D49002B5DF0 /* RideViewModel.swift */; };
+		C5A80BE8261BEBAD00DC2CC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5A80BE7261BEBAD00DC2CC2 /* GoogleService-Info.plist */; };
+		C5BC9AAC25C79FE60021DD40 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BC9AAB25C79FE60021DD40 /* SuccessView.swift */; };
+		C5CD26A826409E080065FD77 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD26A726409E080065FD77 /* ProfileView.swift */; };
+		C5CD26AB2640AD080065FD77 /* PreviousOrders.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD26AA2640AD080065FD77 /* PreviousOrders.swift */; };
+		C5E5BD202621712A008B88FB /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E5BD1F2621712A008B88FB /* TrackingView.swift */; };
+		E45CB47B8DA2FA93F3907C5F /* Pods_MyKar_app_swiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DFF436EAEEB592FD13BF26 /* Pods_MyKar_app_swiftUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		310D960ACE4148E95C5760B0 /* Pods-MyKar app swiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyKar app swiftUI.debug.xcconfig"; path = "Target Support Files/Pods-MyKar app swiftUI/Pods-MyKar app swiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		83A1B7FBA49C107297C83AA6 /* Pods-MyKar app swiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyKar app swiftUI.release.xcconfig"; path = "Target Support Files/Pods-MyKar app swiftUI/Pods-MyKar app swiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		C51D09DA264DE434009C52DF /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		C51D09E1264DEEDD009C52DF /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		C51D09E5264DF53C009C52DF /* MapCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCoordinator.swift; sourceTree = "<group>"; };
+		C51D09EB264DF7F6009C52DF /* Location Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location Manager.swift"; sourceTree = "<group>"; };
+		C51D09EF264E023A009C52DF /* LandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMark.swift; sourceTree = "<group>"; };
+		C51D09F2264E02F4009C52DF /* LandMarkAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarkAnnotation.swift; sourceTree = "<group>"; };
+		C51D09F5264E09C0009C52DF /* PlaceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListView.swift; sourceTree = "<group>"; };
+		C51D09FC264E1C8B009C52DF /* RideSpringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideSpringView.swift; sourceTree = "<group>"; };
+		C51D09FF2651B67D009C52DF /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		C5281960261E8A6D0011D1D6 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		C5281963261E91560011D1D6 /* Ride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
+		C5281966261E9B190011D1D6 /* UserAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthentication.swift; sourceTree = "<group>"; };
+		C5281986261F9B430011D1D6 /* LoginChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginChoice.swift; sourceTree = "<group>"; };
+		C52819B9261FBEA30011D1D6 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		C53BC95525AFBF75002B6819 /* MyKar app swiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyKar app swiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53BC95825AFBF75002B6819 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C53BC95A25AFBF75002B6819 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C53BC95C25AFBF75002B6819 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		C53BC95E25AFBF7B002B6819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C53BC96125AFBF7B002B6819 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C53BC96425AFBF7B002B6819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C53BC96625AFBF7B002B6819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C53BC96C25AFD72D002B6819 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		C547F3982644E7EB009F0059 /* BackgroundGeometryViev.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGeometryViev.swift; sourceTree = "<group>"; };
+		C54981522639E88400E04605 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		C54AE38B261CD52700EDE45E /* firebaseUserAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebaseUserAuth.swift; sourceTree = "<group>"; };
+		C54AE3A6261CF23E00EDE45E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C54AE3BD261D0DD300EDE45E /* MaintenanceSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceSelection.swift; sourceTree = "<group>"; };
+		C54F73C52603BFE10072C548 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		C54F73CC2603CE2A0072C548 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C54F73CF2603D12B0072C548 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		C54F73D22603D15F0072C548 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C54F73D52603DB5A0072C548 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = "../New Group/MapView.swift"; sourceTree = "<group>"; };
+		C5586A8F260BCCCE003BEB7F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C5586A922612839E003BEB7F /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		C5586A9726128453003BEB7F /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		C567B031263AD959007930BF /* CarStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStatusView.swift; sourceTree = "<group>"; };
+		C583040B26276F5500869C8D /* Select Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Select Car.swift"; sourceTree = "<group>"; };
+		C583040F2627706A00869C8D /* CarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewModel.swift; sourceTree = "<group>"; };
+		C5886C8226279208002B5DF0 /* NewCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCar.swift; sourceTree = "<group>"; };
+		C5886C852627C866002B5DF0 /* Select_Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Select_Shop.swift; sourceTree = "<group>"; };
+		C5886C88262829F6002B5DF0 /* RideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideView.swift; sourceTree = "<group>"; };
+		C5886C8B26282D5F002B5DF0 /* ConfirmOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmOrderView.swift; sourceTree = "<group>"; };
+		C5886C8E262834DD002B5DF0 /* RideConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideConditions.swift; sourceTree = "<group>"; };
+		C5886C932628724E002B5DF0 /* ShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewModel.swift; sourceTree = "<group>"; };
+		C5886C9726288D49002B5DF0 /* RideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideViewModel.swift; sourceTree = "<group>"; };
+		C5A80BE7261BEBAD00DC2CC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C5BC9AAB25C79FE60021DD40 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+		C5CD26A726409E080065FD77 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C5CD26AA2640AD080065FD77 /* PreviousOrders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousOrders.swift; sourceTree = "<group>"; };
+		C5E5BD1F2621712A008B88FB /* TrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingView.swift; sourceTree = "<group>"; };
+		D2DFF436EAEEB592FD13BF26 /* Pods_MyKar_app_swiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyKar_app_swiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C53BC95225AFBF75002B6819 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45CB47B8DA2FA93F3907C5F /* Pods_MyKar_app_swiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3380D2693216D7798AAA0E74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				310D960ACE4148E95C5760B0 /* Pods-MyKar app swiftUI.debug.xcconfig */,
+				83A1B7FBA49C107297C83AA6 /* Pods-MyKar app swiftUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C50A866D94A6C54D6CF4D0B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2DFF436EAEEB592FD13BF26 /* Pods_MyKar_app_swiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C51D09E4264DF519009C52DF /* Map Views */ = {
+			isa = PBXGroup;
+			children = (
+				C54F73D52603DB5A0072C548 /* MapView.swift */,
+				C51D09E5264DF53C009C52DF /* MapCoordinator.swift */,
+				C51D09EB264DF7F6009C52DF /* Location Manager.swift */,
+				C51D09F5264E09C0009C52DF /* PlaceListView.swift */,
+			);
+			path = "Map Views";
+			sourceTree = "<group>";
+		};
+		C53BC94C25AFBF75002B6819 = {
+			isa = PBXGroup;
+			children = (
+				C53BC95725AFBF75002B6819 /* MyKar app swiftUI */,
+				C53BC95625AFBF75002B6819 /* Products */,
+				3380D2693216D7798AAA0E74 /* Pods */,
+				C50A866D94A6C54D6CF4D0B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C53BC95625AFBF75002B6819 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C53BC95525AFBF75002B6819 /* MyKar app swiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C53BC95725AFBF75002B6819 /* MyKar app swiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				C5CD26E1264163CE0065FD77 /* Stripe,PaymentProcessing  */,
+				C53BC95825AFBF75002B6819 /* AppDelegate.swift */,
+				C54AE38B261CD52700EDE45E /* firebaseUserAuth.swift */,
+				C53BC96C25AFD72D002B6819 /* Colors.xcassets */,
+				C53BC95A25AFBF75002B6819 /* SceneDelegate.swift */,
+				C53BC95E25AFBF7B002B6819 /* Assets.xcassets */,
+				C583038C262643EB00869C8D /* Viewmodels */,
+				C5586A96261283BA003BEB7F /* Models */,
+				C5586A9A2612850F003BEB7F /* Views */,
+				C53BC96325AFBF7B002B6819 /* LaunchScreen.storyboard */,
+				C5A80BE7261BEBAD00DC2CC2 /* GoogleService-Info.plist */,
+				C53BC96625AFBF7B002B6819 /* Info.plist */,
+				C53BC96025AFBF7B002B6819 /* Preview Content */,
+			);
+			path = "MyKar app swiftUI";
+			sourceTree = "<group>";
+		};
+		C53BC96025AFBF7B002B6819 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C53BC96125AFBF7B002B6819 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C54AE39E261CEB7600EDE45E /* Login files */ = {
+			isa = PBXGroup;
+			children = (
+				C54F73CF2603D12B0072C548 /* RegistrationView.swift */,
+				C54F73CC2603CE2A0072C548 /* LoginView.swift */,
+				C5281986261F9B430011D1D6 /* LoginChoice.swift */,
+				C51D09E1264DEEDD009C52DF /* ForgotPasswordView.swift */,
+			);
+			path = "Login files";
+			sourceTree = "<group>";
+		};
+		C54F73D82603DB660072C548 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				C51D09E4264DF519009C52DF /* Map Views */,
+				C54F73D22603D15F0072C548 /* HomeView.swift */,
+				C5586A8F260BCCCE003BEB7F /* Location.swift */,
+				C52819B9261FBEA30011D1D6 /* SideMenu.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		C5586A96261283BA003BEB7F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C5586A922612839E003BEB7F /* Shop.swift */,
+				C5586A9726128453003BEB7F /* Car.swift */,
+				C54AE3A6261CF23E00EDE45E /* User.swift */,
+				C5281960261E8A6D0011D1D6 /* Service.swift */,
+				C5281963261E91560011D1D6 /* Ride.swift */,
+				C51D09EF264E023A009C52DF /* LandMark.swift */,
+				C51D09F2264E02F4009C52DF /* LandMarkAnnotation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C5586A9A2612850F003BEB7F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C5CD26A626409DBE0065FD77 /* SettingViews */,
+				C583040A26276F1000869C8D /* OrderingRideViews */,
+				C54F73D82603DB660072C548 /* HomeView */,
+				C5BC9AAB25C79FE60021DD40 /* SuccessView.swift */,
+				C54AE39E261CEB7600EDE45E /* Login files */,
+				C53BC95C25AFBF75002B6819 /* StartView.swift */,
+				C5E5BD1E262170C5008B88FB /* Car Tracking */,
+				C54F73C52603BFE10072C548 /* SplashScreenView.swift */,
+				C54981522639E88400E04605 /* MailView.swift */,
+				C547F3982644E7EB009F0059 /* BackgroundGeometryViev.swift */,
+				C51D09DA264DE434009C52DF /* CheckBox.swift */,
+				C51D09FF2651B67D009C52DF /* Test.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C583038C262643EB00869C8D /* Viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				C5281966261E9B190011D1D6 /* UserAuthentication.swift */,
+				C583040F2627706A00869C8D /* CarViewModel.swift */,
+				C5886C932628724E002B5DF0 /* ShopViewModel.swift */,
+				C5886C9726288D49002B5DF0 /* RideViewModel.swift */,
+			);
+			path = Viewmodels;
+			sourceTree = "<group>";
+		};
+		C583040A26276F1000869C8D /* OrderingRideViews */ = {
+			isa = PBXGroup;
+			children = (
+				C583040B26276F5500869C8D /* Select Car.swift */,
+				C5886C8E262834DD002B5DF0 /* RideConditions.swift */,
+				C5886C8B26282D5F002B5DF0 /* ConfirmOrderView.swift */,
+				C54AE3BD261D0DD300EDE45E /* MaintenanceSelection.swift */,
+				C5886C8226279208002B5DF0 /* NewCar.swift */,
+				C5886C852627C866002B5DF0 /* Select_Shop.swift */,
+				C5886C88262829F6002B5DF0 /* RideView.swift */,
+				C567B031263AD959007930BF /* CarStatusView.swift */,
+				C51D09FC264E1C8B009C52DF /* RideSpringView.swift */,
+			);
+			path = OrderingRideViews;
+			sourceTree = "<group>";
+		};
+		C5CD26A626409DBE0065FD77 /* SettingViews */ = {
+			isa = PBXGroup;
+			children = (
+				C5CD26A726409E080065FD77 /* ProfileView.swift */,
+				C5CD26AA2640AD080065FD77 /* PreviousOrders.swift */,
+			);
+			path = SettingViews;
+			sourceTree = "<group>";
+		};
+		C5CD26E1264163CE0065FD77 /* Stripe,PaymentProcessing  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Stripe,PaymentProcessing ";
+			sourceTree = "<group>";
+		};
+		C5E5BD1E262170C5008B88FB /* Car Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				C5E5BD1F2621712A008B88FB /* TrackingView.swift */,
+			);
+			path = "Car Tracking";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C53BC95425AFBF75002B6819 /* MyKar app swiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53BC96925AFBF7B002B6819 /* Build configuration list for PBXNativeTarget "MyKar app swiftUI" */;
+			buildPhases = (
+				C42AA182CD13B13625640074 /* [CP] Check Pods Manifest.lock */,
+				C53BC95125AFBF75002B6819 /* Sources */,
+				C53BC95225AFBF75002B6819 /* Frameworks */,
+				C53BC95325AFBF75002B6819 /* Resources */,
+				31E32496AC015640E3A5175F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyKar app swiftUI";
+			productName = "MyKar app swiftUI";
+			productReference = C53BC95525AFBF75002B6819 /* MyKar app swiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C53BC94D25AFBF75002B6819 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "A. Resh";
+				TargetAttributes = {
+					C53BC95425AFBF75002B6819 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C53BC95025AFBF75002B6819 /* Build configuration list for PBXProject "MyKar app swiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C53BC94C25AFBF75002B6819;
+			productRefGroup = C53BC95625AFBF75002B6819 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C53BC95425AFBF75002B6819 /* MyKar app swiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C53BC95325AFBF75002B6819 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53BC96525AFBF7B002B6819 /* LaunchScreen.storyboard in Resources */,
+				C53BC96D25AFD72D002B6819 /* Colors.xcassets in Resources */,
+				C5A80BE8261BEBAD00DC2CC2 /* GoogleService-Info.plist in Resources */,
+				C53BC96225AFBF7B002B6819 /* Preview Assets.xcassets in Resources */,
+				C53BC95F25AFBF7B002B6819 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31E32496AC015640E3A5175F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyKar app swiftUI/Pods-MyKar app swiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyKar app swiftUI/Pods-MyKar app swiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyKar app swiftUI/Pods-MyKar app swiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C42AA182CD13B13625640074 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyKar app swiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C53BC95125AFBF75002B6819 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5886C89262829F6002B5DF0 /* RideView.swift in Sources */,
+				C54F73CD2603CE2A0072C548 /* LoginView.swift in Sources */,
+				C5281964261E91560011D1D6 /* Ride.swift in Sources */,
+				C567B032263AD959007930BF /* CarStatusView.swift in Sources */,
+				C54981532639E88400E04605 /* MailView.swift in Sources */,
+				C51D0A002651B67E009C52DF /* Test.swift in Sources */,
+				C5CD26AB2640AD080065FD77 /* PreviousOrders.swift in Sources */,
+				C5BC9AAC25C79FE60021DD40 /* SuccessView.swift in Sources */,
+				C5586A9826128453003BEB7F /* Car.swift in Sources */,
+				C5586A90260BCCCE003BEB7F /* Location.swift in Sources */,
+				C5886C8C26282D5F002B5DF0 /* ConfirmOrderView.swift in Sources */,
+				C53BC95925AFBF75002B6819 /* AppDelegate.swift in Sources */,
+				C51D09F0264E023A009C52DF /* LandMark.swift in Sources */,
+				C58304102627706A00869C8D /* CarViewModel.swift in Sources */,
+				C5281967261E9B190011D1D6 /* UserAuthentication.swift in Sources */,
+				C51D09FD264E1C8B009C52DF /* RideSpringView.swift in Sources */,
+				C5E5BD202621712A008B88FB /* TrackingView.swift in Sources */,
+				C5886C942628724E002B5DF0 /* ShopViewModel.swift in Sources */,
+				C52819BA261FBEA40011D1D6 /* SideMenu.swift in Sources */,
+				C54F73D02603D12B0072C548 /* RegistrationView.swift in Sources */,
+				C51D09F6264E09C0009C52DF /* PlaceListView.swift in Sources */,
+				C54F73C62603BFE10072C548 /* SplashScreenView.swift in Sources */,
+				C54F73D32603D15F0072C548 /* HomeView.swift in Sources */,
+				C51D09F3264E02F4009C52DF /* LandMarkAnnotation.swift in Sources */,
+				C5281961261E8A6D0011D1D6 /* Service.swift in Sources */,
+				C51D09EC264DF7F6009C52DF /* Location Manager.swift in Sources */,
+				C51D09DB264DE434009C52DF /* CheckBox.swift in Sources */,
+				C583040C26276F5500869C8D /* Select Car.swift in Sources */,
+				C54AE3A7261CF23E00EDE45E /* User.swift in Sources */,
+				C5886C862627C866002B5DF0 /* Select_Shop.swift in Sources */,
+				C51D09E2264DEEDD009C52DF /* ForgotPasswordView.swift in Sources */,
+				C547F3992644E7ED009F0059 /* BackgroundGeometryViev.swift in Sources */,
+				C5886C9826288D49002B5DF0 /* RideViewModel.swift in Sources */,
+				C51D09E6264DF53C009C52DF /* MapCoordinator.swift in Sources */,
+				C53BC95B25AFBF75002B6819 /* SceneDelegate.swift in Sources */,
+				C54AE3BE261D0DD300EDE45E /* MaintenanceSelection.swift in Sources */,
+				C54F73D62603DB5A0072C548 /* MapView.swift in Sources */,
+				C54AE38C261CD52700EDE45E /* firebaseUserAuth.swift in Sources */,
+				C5586A932612839E003BEB7F /* Shop.swift in Sources */,
+				C5281987261F9B430011D1D6 /* LoginChoice.swift in Sources */,
+				C5886C8F262834DD002B5DF0 /* RideConditions.swift in Sources */,
+				C53BC95D25AFBF75002B6819 /* StartView.swift in Sources */,
+				C5CD26A826409E080065FD77 /* ProfileView.swift in Sources */,
+				C5886C8326279208002B5DF0 /* NewCar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C53BC96325AFBF7B002B6819 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C53BC96425AFBF7B002B6819 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C53BC96725AFBF7B002B6819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C53BC96825AFBF7B002B6819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C53BC96A25AFBF7B002B6819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 310D960ACE4148E95C5760B0 /* Pods-MyKar app swiftUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MyKar app swiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = X4K87AQXKQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MyKar app swiftUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "reshad.MyKar-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C53BC96B25AFBF7B002B6819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83A1B7FBA49C107297C83AA6 /* Pods-MyKar app swiftUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MyKar app swiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = X4K87AQXKQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MyKar app swiftUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "reshad.MyKar-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C53BC95025AFBF75002B6819 /* Build configuration list for PBXProject "MyKar app swiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53BC96725AFBF7B002B6819 /* Debug */,
+				C53BC96825AFBF7B002B6819 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53BC96925AFBF7B002B6819 /* Build configuration list for PBXNativeTarget "MyKar app swiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53BC96A25AFBF7B002B6819 /* Debug */,
+				C53BC96B25AFBF7B002B6819 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C53BC94D25AFBF75002B6819 /* Project object */;
+}

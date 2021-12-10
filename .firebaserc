@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "mykar-mobile-application",
+    "staging": "mykar-mobile-application"
+  }
+}
